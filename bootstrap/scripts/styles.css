@@ -1,0 +1,27 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	color:blue;
+}
+
+#circle {
+  	width:200px;
+ 	height:200px;
+	border-radius:100px;
+ 	position:relative;
+	background-color:green;
+}
+
+.square {
+  	width:300px;
+ 	height:300px;
+ 	position:relative;
+	background-color:red;
+	margin-top: 10px;
+}
+
+
+
+
