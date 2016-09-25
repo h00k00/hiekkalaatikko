@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" type="text/css" href="css/styles.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="scripts/script.js"></script>
 <!-- Latest compiled and minified CSS -->
@@ -59,6 +58,20 @@
 		width: 100%;
 		}
 
+	.row.match-cols {
+		overflow:hidden;
+	}
+	.row.match-cols [class*="col-"] {
+		margin-bottom: -99999px;
+		padding-bottom: 99999px;
+	}
+	.match-cols [class*="col-"] {
+	  background: #B0D1FB;
+		border-style: solid;
+		border-width:thin;
+		border-color: black;
+	}
+
 </style>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse">
@@ -108,23 +121,36 @@
 			<h1 class="center title">Web technics</h1>
 			<p class="lead center">Trial pages for different web technincs</p>
 		</div>
-		<div class="row marginBottom">
-			<div class="col-md-4 marginTop">
+		<div class="row marginBottom match-cols">
+			<div class="col-xs-12 col-sm-6 col-md-3 marginTop">
 				<h2><span class="glyphicon glyphicon-music small"></span>Bootstrap</h2>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
 				<p>Brief description of all the possible things...</p>
 				<a href="./bootstrap/index.html" class="btn btn-success marginTop" role="button">Bootstrap</a>
 			</div>
-			<div class="col-md-4 marginTop">
+			<div class="col-xs-12 col-sm-6 col-md-3 marginTop">
 				<h2><span class="glyphicon glyphicon-off small"></span>jQuery</h2>
 				<p>Brief description of all the possible things...</p>
 				<a href="./jquery/index.html" class="btn btn-success marginTop" role="button">jQuery</a>
 			</div>
-			<div class="col-md-4 marginTop">
+			<div class="col-xs-12 col-sm-6 col-md-3 marginTop">
 				<h2><span class="glyphicon glyphicon-pencil small"></span>jQuery UI</h2>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
+				<p>Brief description of all the possible things...</p>
 				<p>Brief description of all the possible things...</p>
 				<a href="./jqueryui/index.html" class="btn btn-success marginTop" role="button">jQuery UI</a>
 			</div>
-			<div class="col-md-4 marginTop">
+			<div class="col-xs-12 col-sm-6 col-md-3 marginTop">
 				<h2><span class="glyphicon glyphicon-pencil small"></span>Reactiontester</h2>
 				<p>Brief description of all the possible things...</p>
 				<a href="./reactiontester/index.html" class="btn btn-success marginTop" role="button">Reactiontester</a>
