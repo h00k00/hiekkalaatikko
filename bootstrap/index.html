@@ -8,13 +8,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script type="text/javascript" src="scripts/script.js"></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 <style>
 .navbar-brand {
 	font-size:1.8em;
@@ -76,8 +76,6 @@
 	.match-my-cols .box a {
 	  position: relative;
 	}
-
-
 </style>
 </head>
 
@@ -102,6 +100,7 @@
 					<li><a href="#page2">Page 2</a></li>
 					<li><a href="#page3">Page 3</a></li>
 					<li><a href="#page4">Page 4</a></li>
+					<li><a href="#page5">Page 5</a></li>
 				</ul>
 			</div>
 		</div>
@@ -232,17 +231,324 @@
 	        </div>
 	    </div>
 	</article>
-
-	<div class="legend">
-	    <span class="key-container">.container</span>
-	    <span class="key-row">.row</span>
-	    <span class="key-col">.col-*</span>
-	    <span class="key-box">.box (custom)</span>
-	</div>
 </div>
+
+<div id="page5" class="container contentContainer">
+	<h1 class="title"></h1>
+	<button type="button" class="btn btn-success btn-filter" data-target="pagado">Pagado</button>
+	<button type="button" class="btn btn-success btn-filter" data-target="muu">Muu</button>
+	<button type="button" class="btn btn-success btn-filter" data-target="joku">Joku</button>
+	<button type="button" class="btn btn-warning btn-filter" data-target="all">All</button>
+        <div id="example">
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+					<div class="row" data-status="pagado">
+							<div class="col-md-2">Tiger Nixon</div>
+							<div class="col-md-2">System Architect</div>
+							<div class="col-md-2">Edinburgh</div>
+							<div class="col-md-2">61</div>
+							<div class="col-md-2">2011/04/25</div>
+							<div class="col-md-2">$320,800</div>
+					</div>
+					<div class="row" data-status="muu">
+							<div class="col-md-2">Garrett Winters</div>
+							<div class="col-md-2">Accountant</div>
+							<div class="col-md-2">Tokyo</div>
+							<div class="col-md-2">63</div>
+							<div class="col-md-2">2011/07/25</div>
+							<div class="col-md-2">$170,750</div>
+					</div>
+					<div class="row" data-status="joku">
+							<div class="col-md-2">Ashton Cox</div>
+							<div class="col-md-2">Junior Technical Author</div>
+							<div class="col-md-2">San Francisco</div>
+							<div class="col-md-2">66</div>
+							<div class="col-md-2">2009/01/12</div>
+							<div class="col-md-2">$86,000</div>
+					</div>
+        </div>
+			</div>
+
 <div id="feedly-mini" title="feedly Mini tookit"></div>
+
 <script>
 	$(".contentContainer").css("min-height", $(window).height());
+
+	$(document).ready(function () {
+
+	    $('.btn-filter').on('click', function () {
+	      var $target = $(this).data('target');
+	      if ($target != 'all') {
+	        $('.row').css('display', 'none');
+	        $('.row[data-status="' + $target + '"]').fadeIn('slow');
+	      } else {
+	        $('.row').css('display', 'none').fadeIn('slow');
+	      }
+	    });
+
+	 });
 </script>
 
 </body>
