@@ -62,8 +62,8 @@
 	}
 
 	.row.match-my-cols [class*="col-"]{
-	    margin-bottom: -99999px;
-	    padding-bottom: 99999px;
+	    margin-bottom: -9999px;
+	    padding-bottom: 9999px;
 	}
 
 	.match-my-cols .box {
@@ -75,6 +75,15 @@
 	}
 	.match-my-cols .box a {
 	  position: relative;
+	}
+
+	.box {
+		position: relative;
+		height: 20em;
+	}
+	.box a {
+		position: absolute;
+		bottom: 0;
 	}
 </style>
 </head>
@@ -186,12 +195,12 @@
 	    </header>
 	    <div class="big-sexy-buttons">
 	        <div class="container">
-	            <div class="row match-my-cols">
+	            <div class="row">
 	                <div class="col-sm-4 col-md-4">
 	                    <div class="box">
 	                        <h2>Oh My God!</h2>
 	                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. adipisicing elit, sed do eiusmod tempor</p>
-	                        <a href="#" class="btn btn-primary">Link 1</a>
+	                        <a href="#" class="btn btn-primary bottom-align">Link 1</a>
 	                    </div>
 	                </div>
 	                <div class="col-sm-4 col-md-4">
